@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "FontFamilyLight";
+  src: url("../fonts/Roboto/roboto-v30-latin-300.woff2") format("woff2"),
+    url("../fonts/Roboto/roboto-v30-latin-300.woff") format("woff");
+}
+
+@font-face {
+  font-family: "FontFamilyRegular";
+  src: url("../fonts/Roboto/roboto-v30-latin-regular.woff2") format("woff2"),
+    url("../fonts/Roboto/roboto-v30-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "FontFamilyBold";
+  src: url("../fonts/Roboto/roboto-v30-latin-700.woff2") format("woff2"),
+    url("../fonts/Roboto/roboto-v30-latin-700.woff") format("woff");
+}

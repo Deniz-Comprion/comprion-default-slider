@@ -1,1 +1,1 @@
-# comprion-default-slider
+# comprion-default

@@ -1,0 +1,42 @@
+/*********
+/* Hier kann eine Hintergrundefarbe für den Footer angegeben werden.
+/* Für den Gradient kann dieser Generator benutzt werden; https://cssgradient.io/
+/* Einfach den Code entsprechend in die Klasse body-overlay kopieren.
+/* WICHTIG: Der Body hat ebenfalls eine Hintergrundefarbe. Falls diese nicht harmonieren, einfach unter colors.css anpassen.
+/* Gff. einfach auskommentieren.
+********/
+footer {
+  /*background: var(--bg-footer);*/
+  padding: 1rem 0;
+  height: 11rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-footer-logo-items li {
+  display: inline;
+  margin: 0.5rem;
+}
+
+#footer-nav-social-media .nav-items li a {
+  font-size: 1rem;
+  color: var(--light);
+  text-transform: uppercase;
+  font-family: "FontFamilyRegular";
+}
+
+#footer-nav-meta .nav-items li {
+  display: inline;
+  margin: 0 0.5rem;
+}
+
+#footer-nav-meta .nav-items li a {
+  color: var(--light);
+  border-color: transparent;
+}
+
+#footer-nav-meta .nav-items li a:hover {
+  border-color: var(--light);
+}

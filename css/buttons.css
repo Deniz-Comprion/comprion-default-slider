@@ -1,0 +1,118 @@
+/* Hauptklasse des Buttons */
+
+.btn {
+  border-radius: 1.5rem;
+  padding: 1rem 2.5rem;
+  border-style: solid;
+  transition: 0.5s;
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+/* Buttons mit der Farbe "prim" */
+
+.btn-prim {
+  background-color: var(--prim);
+  color: var(--light);
+  border: 2px solid var(--prim);
+}
+
+.btn-prim:hover {
+  background-color: var(--light);
+  color: var(--prim);
+  border: 2px solid var(--prim);
+}
+
+.btn-prim-outline {
+  background-color: var(--light);
+  color: var(--prim);
+  border: 2px solid var(--prim);
+}
+
+.btn-prim-outline:hover {
+  background-color: var(--prim);
+  color: var(--light);
+  border: 2px solid var(--light);
+}
+
+/* Buttons mit der Farbe "sec" */
+
+.btn-sec {
+  background-color: var(--sec);
+  color: var(--light);
+  border: 2px solid var(--sec);
+}
+
+.btn-sec:hover {
+  background-color: var(--light);
+  color: var(--sec);
+  border: 2px solid var(--sec);
+}
+
+.btn-sec-outline {
+  background-color: var(--light);
+  color: var(--sec);
+  border: 2px solid var(--light);
+}
+
+.btn-sec-outline:hover {
+  background-color: var(--sec);
+  color: var(--light);
+  border: 2px solid var(--sec);
+}
+
+/* Buttons mit der Farbe "terz" */
+
+.btn-terz {
+  background-color: var(--terz);
+  color: var(--light);
+  border: 2px solid var(--terz);
+}
+
+.btn-terz:hover {
+  background-color: var(--light);
+  color: var(--terz);
+  border: 2px solid var(--terz);
+}
+
+.btn-terz-outline {
+  background-color: var(--light);
+  color: var(--terz);
+  border: 2px solid var(--terz);
+}
+
+.btn-terz-outline:hover {
+  background-color: var(--terz);
+  color: var(--light);
+  border: 2px solid var(--terz);
+}
+
+/* Buttons mit der Farbe "gray-dark" */
+
+.btn-gray-dark {
+  background-color: var(--gray-dark);
+  color: var(--light);
+  border: 2px solid var(--gray-dark);
+}
+
+.btn-gray-dark:hover {
+  background-color: var(--light);
+  color: var(--gray-dark);
+  border: 2px solid var(--gray-dark);
+}
+
+.btn-gray-dark-outline {
+  background-color: var(--light);
+  color: var(--gray-dark);
+  border: 2px solid var(--gray-dark);
+}
+
+.btn-gray-dark-outline:hover {
+  background-color: var(--gray-dark);
+  color: var(--light);
+  border: 2px solid var(--gray-dark);
+}

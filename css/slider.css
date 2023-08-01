@@ -1,0 +1,152 @@
+/*Slider Container*/
+#slider {
+    display: flex;
+}
+
+.slider-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 5rem;
+}
+
+#slider-dots-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+.slider-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid var(--prim);
+    background-color: var(--prim);
+    margin: 0 5px
+}
+
+.slider-dot-active {
+    background-color: var(--light);
+}
+
+
+
+@media (max-width: 1600px) {
+    #slider {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .slider-container {
+        margin-top: 0rem;
+    }
+}
+
+@media (max-width: 400px) {
+    #slider {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slider-container {
+        margin-top: 5rem;
+    }
+}
+
+
+/*Slides*/
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 20rem;
+    padding: 2.5rem;
+    background-color: rgb(0, 68, 137,0.66);
+    border-radius: 2.5rem;
+    border: 1px solid rgba( 255, 255, 255, 0.66 );
+    -webkit-box-shadow: 0px 0px 33px 0px var(--shadow);
+    -moz-box-shadow: 0px 0px 33px 0px var(--shadow);
+    box-shadow: 0px 0px 33px 0px var(--shadow);
+    transition: .5s;
+}
+
+.slide-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-title {
+    margin: 2rem 0;
+}
+
+.slide h3 {
+    text-align: center;
+}
+
+.slide p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.slide-icon {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    border: 2px solid var(--light);
+    padding: 1.5rem;
+    background-color: var(--light);
+    margin-top: -7rem;
+}
+
+.slide-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide:hover {
+    background-color: var(--prim);
+    cursor: pointer;
+    transform: scale(1.05);
+    -webkit-box-shadow: 0px 0px 33px 0px var(--shadow-active);
+    -moz-box-shadow: 0px 0px 33px 0px var(--shadow-active);;
+    box-shadow: 0px 0px 33px 0px var(--shadow-active);
+    transition: .5s;
+}
+
+.slide-link {
+    width: 100%;
+    display: inherit;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+    transition: .5s;
+}
+
+.slide-active {
+    position: relative;
+    opacity: 1;
+    z-index: 100;
+    transition: .5s;
+
+}
+
+@media (max-width: 1600px) {
+    .slide {
+        height: 25rem;
+    }
+}
+
